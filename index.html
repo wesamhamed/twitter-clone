@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Twitter Clone Project - For Gaza Sky Geeks </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <!-- main page -->
+    <section class="main-page">
+        <!-- left -->
+        <div class="left-side">
+            <svg viewBox="0 0 24 24" class="twitter-brid"><g><path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path></g></svg>
+
+        </div>
+
+        <!-- end of left -->
+        <!-- right -->
+        <div class="right-side">
+            <form class="right-content-form">
+                <input type="text" class="user-info" placeholder="phone, email, or user name">
+                <div>
+                    <input type="password" class="password" placeholder="Password">
+                    <label>Forgot Password?</label>
+                </div>
+                <button type="button" class="btn-top">Log in</button>
+            </form>
+            <div class="middle-content">
+                <i class="fas fa-dove"></i>
+                <h1>Explore what's happenning in the world</h1>
+                <h4>Join Twirrer today</h4>
+                <button type="button" class="sign-up main-btn">Sign Up</button>
+                <button type="button" class="log-in main-btn">Log In</button>
+            </div>
+        </div>
+        <!-- end of right -->
+        <!-- footer -->
+        <footer class="main-page-footer">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">&copy; 2020 Twirrer</a></li>
+            </ul>
+        </footer>
+        <!-- end of footer -->
+    </section>
+    <!-- end of main page -->
+
+    <!-- login page -->
+
+    <section class="login-page">
+        <!-- login page nav -->
+        <nav class="login-page-nav">
+            <ul>
+                <li class="brand"><a href="#"><i class="fas fa-dove"></i></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Language: English</a></li>
+            </ul>
+        </nav>
+        <!-- end of login page nav -->
+        <!-- login -->
+        <div class="login">
+            <div class="login-content">
+                <h2>Log in to Twirrer</h2>
+                <form class="login-form">
+                    <input type="text" placeholder="Phone, email, or username" class="login-user-info">
+                    <input type="password" placeholder="Password" class="login-password">
+                    <div>
+                        <button type="button" class="login-form-btn">Log In</button>
+                        <input type="checkbox" class="login-form-checkbox" id="check">
+                        <label for="check">Remember me</label>
+                        <a href="#">Forgot password</a>
+                    </div>
+                </form>
+            </div>
+            <footer class="login-footer">
+                <p>New to Twirrer? <a href="#">Sign up now</a></p>
+                <p>Already using Twirrer via text message? <a href="#">Activate your account</a></p>
+            </footer>
+        </div>
+        <!-- end of login -->
+        <!-- login modal -->
+        <div class="login-modal">
+            <i class="fas fa-times"></i>
+            <p>The username and password you entered did not match our records. Please, double check and try again</p>
+        </div>
+
+        <!-- end of login modal -->
+    </section>
+    <!-- end of login page -->
+
+    <!-- feeds page -->
+
+    <section class="feeds-page">
+        <!-- feeds nav -->
+        <nav class="feeds-nav dark-mode-1">
+            <div class="icons">
+                <a href="#" class="active"><i class="fas fa-home"></i></a>
+                <a href="#"><i class="fas fa-hashtag"></i></a>
+                <a href="#"><i class="far fa-bell"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search Twirrer" class="search-bar-input dark-mode-2 light-text border">
+            </div>
+            <div class="user">
+                <div class="user-img-wrapper">
+                    <img src="images/DSC_0176.JPG" alt="">
+                </div>
+                <a href="#" class="user-link light-text">Venera K</a>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </nav>
+        <!-- end of feeds nav -->
+
+        <!-- feeds content -->
+        <div class="feeds-content dark-mode-2">
+            <div class="feeds-header dark-mode-1">
+                <div class="header-top border">
+                    <h4 class="light-text">Home</h4>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="header-feed dark-mode-1 border">
+                    <div class="header-img-wrapper">
+                        <img src="images/DSC_0176.JPG" class="rotateimg90" alt="">
+                    </div>
+                    <input type="text" placeholder="What's happenning?" class="dark-mode-2 light-text border">
+                    <i class="far fa-image"></i>
+                    <i class="fas fa-camera"></i>
+                    <i class="far fa-chart-bar"></i>
+
+                </div>
+            </div>
+
+            <div class="newsfeed dark-mode-1">
+                <!-- feed -->
+
+                <div class="follow dark-mode-1">
+                    <h3 class="follow-heading light-text border">Who to follow</h3>
+                    <div class="follow-user border">
+                        <div class="follow-user-img">
+                            <img src="images/user7.jpg" alt="">
+                        </div>
+                        <div class="follow-user-info light-text">
+                            <h4>Wild Feminist</h4>
+                            <p>@wildfeminist</p>
+                        </div>
+                        <button type="button" class="follow-btn dark-mode-2">Follow</button>
+                    </div>
+
+
+                    <div class="follow-user border">
+                        <div class="follow-user-img">
+                            <img src="images/user8.jpg" alt="">
+                        </div>
+                        <div class="follow-user-info light-text">
+                            <h4>Jenish B</h4>
+                            <p>@jenishb</p>
+                        </div>
+                        <button type="button" class="follow-btn dark-mode-2">Follow</button>
+                    </div>
+
+
+                    <div class="follow-user border">
+                        <div class="follow-user-img">
+                            <img src="images/user9.jpg" alt="">
+                        </div>
+                        <div class="follow-user-info light-text">
+                            <h4>Baraban</h4>
+                            <p>@baraban</p>
+                        </div>
+                        <button type="button" class="follow-btn dark-mode-2">Follow</button>
+                    </div>
+                    <div class="follow-link">
+                        <a href="#">Show more</a>
+                    </div>
+                    <footer class="follow-footer dark-mode-2">
+                        <ul>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookies</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">More</a></li>
+                        </ul>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- end of feeds content -->
+
+        <button type="button" class="tweet-btn">
+                <i class="fas fa-feather-alt"> Tweet</i>
+            </button>
+
+        <!-- feed modal -->
+        <div class="modal-wrapper">
+            <div class="modal dark-mode-1">
+                <div class="modal-header border">
+                    <i class="fas fa-times"></i>
+                    <button id="feed-btn" type="button">feed</button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img">
+                        <img src="images/DSC_0176.JPG" alt="">
+                    </div>
+                    <input id="username" type="text" placeholder="Enter your username" class="modal-input modal-username dark-mode-2 light-text border">
+                    <input id="content" type="text" placeholder="What's happenning?" class="modal-input modal-content dark-mode-2 light-text border">
+                    <i class="far fa-smile"></i>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-icons">
+                        <i class="far fa-image"></i>
+                        <i class="fas fa-camera"></i>
+                        <i class="far fa-chart-bar"></i>
+                        <span>+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end of feed modal -->
+
+        <!-- sidebar -->
+        <div class="sidebar-wrapper">
+            <div class="sidebar dark-mode-1">
+                <div class="sidebar-header border">
+                    <h2 class="light-text">Account info</h2>
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="sidebar-user">
+                    <div class="sidebar-user-img">
+                        <img src="images/DSC_0176.JPG" alt="">
+                    </div>
+                    <span>+</span>
+                </div>
+                <div class="sidebar-user-info light-text">
+                    <h4>Venera K</h4>
+                    <p>@venera</p>
+                </div>
+                <div class="following light-text">
+                    <p class="following-paragraph"><span>452</span> Following</p>
+                    <p class="following-paragraph"><span>7.5K</span> Followers</p>
+                </div>
+                <div class="sidebar-list-1 border">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
+                        <li><a href="#"><i class="far fa-list-alt"></i>Lists</a></li>
+                        <li><a href="#"><i class="far fa-bookmark"></i>Bookmarks</a></li>
+                        <li><a href="#"><i class="fab fa-adversal"></i>Ads</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line"></i>Analytics</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-list-2">
+                    <ul>
+                        <li><a href="#">Settings and Privacy</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Log Out</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- dark mode -->
+                <div class="dark-mode">
+                    <p>Dark Mode</p>
+                    <div class="toggle">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+
+                <!-- end of dark mode -->
+
+            </div>
+        </div>
+
+        <!-- end of sidebar -->
+
+    </section>
+
+    <!-- end of feeds page -->
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
