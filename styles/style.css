@@ -46,9 +46,10 @@ body {
 .main-page {
     width: 100%;
     height: 100vh;
-    display: grid;
+/*     display: grid; */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr min-content;
+    display:none;
 }
 
 .twitter-brid {
@@ -453,7 +454,7 @@ body {
 .feeds-page {
     width: 100%;
     height: 100%;
-    display: none;
+/*     display: none; */
 }
 
 
